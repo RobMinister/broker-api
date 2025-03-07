@@ -59,7 +59,7 @@ Run:
 #### **Using Postman**
 1. Open **Postman**.
 2. Click on **New**
-2. Select **WebSocket **.
+2. Select **WebSocket**.
 3. Connect to:
    ```
    ws://127.0.0.1:8000/ws/TSLA
