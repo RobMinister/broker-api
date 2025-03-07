@@ -87,7 +87,7 @@ and click on **Send**
 
 ## **4. Placing Orders**
 
-1. In **Postman**, click on New.
+1. In **Postman**, click on **New**.
 2. Select **HTTP**.
 3. Connect to:
 
