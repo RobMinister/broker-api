@@ -1,4 +1,4 @@
-# Broker API - Dockerized Setup
+ # Broker API - Dockerized Setup
 
 ## Overview
 This Broker API lets you:
@@ -43,6 +43,18 @@ Make sure you have:
 
 ## **3. Testing the API**
 
+### **Check If the API is Running**
+Run:
+```bash
+ curl -X GET "http://127.0.0.1:8000/"
+```
+✅ Expected Output:
+```json
+{
+    "message": "Broker API is running"
+}
+```
+
 ### **Subscribe to Market Data (WebSocket)**
 #### **Using Postman**
 1. Open **Postman**.
@@ -74,6 +86,10 @@ and click on **Send**
 ---
 
 ## **4. Placing Orders**
+
+1. In **Postman**, click on New.
+2. Select **HTTP**.
+3. Connect to:
 
 ### **Place a BUY Order**
 ```bash
